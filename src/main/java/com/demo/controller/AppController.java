@@ -10,6 +10,7 @@ public class AppController {
 	public ModelAndView loginPage() {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("LoginPage");
+		System.out.println("Command Executed");
 		return mv;
 	}
 
